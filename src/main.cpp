@@ -9,6 +9,7 @@ int main()
     Screen screen;
     screen.add(rec1);
     screen.add(rec2);
+    screen.draw();
 
     return 0;
 }

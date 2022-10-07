@@ -1,6 +1,10 @@
+cmake_minimum_required(VERSION 3.5.1)
 project(recDrawing)
-set(CXX_STANDARD 14)
-set(CXX_STANDARD_REQUIRED ON)
+
+# not CXX_STANDARD 14
+# but CMAKE_CXX_STANDARD 14
+set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable( recDrawing
     src/main.cpp

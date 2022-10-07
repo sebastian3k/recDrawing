@@ -5,7 +5,11 @@
 class Screen
 {
 private:
-    /* data */
+    static const uint8_t consoleWidth=48;
+    static const uint8_t consoleHeight=24;
+    char console[consoleWidth][consoleHeight];
 public:
+    Screen();
     void add(Rec rec);
+    void draw();
 };
