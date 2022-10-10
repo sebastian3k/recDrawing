@@ -5,7 +5,7 @@ Screen::Screen()
 {
     for (auto &&c : console)
     {
-        c=std::string(this->consoleWidth,' ');
+        c=std::string(this->consoleWidth,'-');
     }
     
 }
